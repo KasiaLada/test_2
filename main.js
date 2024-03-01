@@ -347,7 +347,6 @@ Wartość logiczna liczby 0 wynosi false.
 // }
 // console.log(random(2, 9)); nie działawłaściwie
 
-
 // function generateRandomNumber(minValue, maxValue) {
 //     return Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
 // }
@@ -366,15 +365,31 @@ Wartość logiczna liczby 0 wynosi false.
 // // Przykładowe użycie
 // reverseChildren('myDiv');
 // ==============================
+// exercism zadanie
+// export const EXPECTED_MINUTES_IN_OVEN = 40;
 
-export const EXPECTED_MINUTES_IN_OVEN = 40;
+// const PREPARATION_MINUTES_PER_LAYER = 2;
 
-const PREPARATION_MINUTES_PER_LAYER = 2;
+// export function remainingMinutesInOven(actualMinutesInOven) {
+//     return EXPECTED_MINUTES_IN_OVEN - actualMinutesInOven;
+//   }
 
-export function remainingMinutesInOven(actualMinutesInOven) {
-    return EXPECTED_MINUTES_IN_OVEN - actualMinutesInOven;
-  }
+//   export function preparationTimeInMinutes(numberOfLayers) {
+//     return numberOfLayers * PREPARATION_MINUTES_PER_LAYER;
+//   }
+// =================================
+// go it
 
-  export function preparationTimeInMinutes(numberOfLayers) {
-    return numberOfLayers * PREPARATION_MINUTES_PER_LAYER;
-  }
+// function getExtremeElements(array) {
+//     // Change code below this line
+//   return array[0, length - 1]
+//     // Change code above this line
+//   }
+//   console.log(array['apple', 'peach', 'pear', 'banana']);
+
+// function calculateEngravingPrice(message, pricePerWord) {
+// 	let countWords = message.split('');
+// 	console.log(countWords.length * pricePerWord);
+// }
+// calculateEngravingPrice('ddd ddd ddd', 10);
+
